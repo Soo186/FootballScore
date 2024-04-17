@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.news-container {
+    max-width: 800px;
+    margin-top: 0;
+    margin-right: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.news-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news-image {
+    max-width: 30%;
+    height: auto;
+}
+
+.news-content h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.news-content p {
+    font-size: 14px;
+    color: #666;
+}
+.border-container {
+    border: 2px solid #ccc;
+    width: 20%;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+.border-container .league-list li {
+    margin-bottom: 10px; /* 각 리스트 아이템 사이에 10px의 공백 추가 */
+}
+.league-list li {
+    /* 기본 스타일 */
+}
+
+.league-list li:hover {
+    background-color: lightgray; /* 옅은 회색 */
+    cursor: pointer;
+}
+
+.league-list .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    vertical-align: middle;
+    margin: 5px 0;
+}
+.icon.premier-league {
+    background: url(EPLlogo.png) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+
+.icon.champions-league {
+    background: url(Cham.png) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.icon.laliga{
+    background: url(laligalogo.png) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+.icon.bundesliga{
+    background: url(bundeslogo.png) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.icon.serieA{
+    background: url(seriealogo.png) no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
